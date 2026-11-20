@@ -1,3 +1,8 @@
 .venv-netsec
 .env
 __pycache__
+test_push_data.py
+logs
+Network_Data
+NetworkSecurity.egg-info
+setup.py

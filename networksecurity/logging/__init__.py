@@ -1,4 +1,3 @@
-from networksecurity.logging.logging import *
-import logging
+from networksecurity.logging.logging import logger
 
-logger = logging.getLogger(__name__)
+__all__ = ['logger']

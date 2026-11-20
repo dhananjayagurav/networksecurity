@@ -14,3 +14,6 @@ logging.basicConfig(
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
 )
+
+# Create a logger object to export
+logger = logging.getLogger(__name__)

@@ -28,6 +28,7 @@ dependencies = [
     "pandas",
     "numpy",
     "pymongo",
+    "certifi",
 ]
 
 [project.optional-dependencies]
