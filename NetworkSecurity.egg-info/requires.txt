@@ -2,6 +2,7 @@ python-dotenv
 pandas
 numpy
 pymongo
+certifi
 
 [dev]
 pytest>=7.0

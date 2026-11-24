@@ -2,7 +2,7 @@ import os
 import sys
 
 from networksecurity.exception.exception import NetworkSecurityException
-from networksecurity.logging.logger import logging
+from networksecurity.logging.logging import logging
 
 from networksecurity.components.data_ingestion import DataIngestion
 from networksecurity.components.data_validation import DataValidation
@@ -24,9 +24,9 @@ from networksecurity.entity.artifact_entity import (
     ModelTrainerArtifact,
 )
 
-from networksecurity.constant.training_pipeline import TRAINING_BUCKET_NAME
-from networksecurity.cloud.s3_syncer import S3Sync
-from networksecurity.constant.training_pipeline import SAVED_MODEL_DIR
+from networksecurity.constants.training_pipeline import TRAINING_BUCKET_NAME
+#from networksecurity.cloud.s3_syncer import S3Sync
+from networksecurity.constants.training_pipeline import SAVED_MODEL_DIR
 import sys
 
 
