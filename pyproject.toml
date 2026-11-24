@@ -15,7 +15,6 @@ keywords = ["network", "security", "monitoring"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
@@ -29,6 +28,13 @@ dependencies = [
     "numpy",
     "pymongo",
     "certifi",
+    "scikit-learn"
+    "mlflow"
+    "pyaml"
+    "dagshub"
+    "fastapi"
+    "uvicorn"
+    "python-multipart"
 ]
 
 [project.optional-dependencies]

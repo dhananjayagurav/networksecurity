@@ -3,6 +3,10 @@
 __pycache__
 test_push_data.py
 logs
-Network_Data
+Network_Data/
 NetworkSecurity.egg-info
 setup.py
+mlruns/
+notebooks/
+prediction_output/
+mlflow.db
