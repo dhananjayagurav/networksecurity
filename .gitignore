@@ -10,3 +10,5 @@ mlruns/
 notebooks/
 prediction_output/
 mlflow.db
+Artifacts/
+final_model/
