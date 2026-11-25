@@ -69,9 +69,7 @@ def load_numpy_array_data(file_path: str) -> np.array:
         with open(file_path, "rb") as file_obj:
             return np.load(file_obj)
     except Exception as e:
-        raise NetworkSecurityException(e, sys) from e
-    
-
+        raise NetworkSecurityException(e, sys) from e    
 
 def evaluate_models(X_train, y_train,X_test,y_test,models,param):
     try:
@@ -90,17 +88,11 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
             #model.fit(X_train, y_train)  # Train model
 
             y_train_pred = model.predict(X_train)
-
             y_test_pred = model.predict(X_test)
-
             train_model_score = r2_score(y_train, y_train_pred)
-
             test_model_score = r2_score(y_test, y_test_pred)
-
             report[list(models.keys())[i]] = test_model_score
-
         return report
-
     except Exception as e:
         raise NetworkSecurityException(e, sys)
 
